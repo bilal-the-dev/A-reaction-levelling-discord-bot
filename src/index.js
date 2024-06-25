@@ -31,7 +31,7 @@ const client = new Client({
 });
 
 client.on("ready", async (readyClient) => {
-	readyClient.application.commands.set([]);
+	// readyClient.application.commands.set([]);
 	// client.guilds.cache.get("1239804781468586024").commands.set([]);
 	console.log(`${readyClient.user.username} is running 🧶`);
 
