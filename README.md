@@ -38,7 +38,7 @@ This Discord bot provides a reaction leveling system where the bot reacts to mes
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/reaction-leveling-bot.git
+   git clone https://github.com/bilal-the-dev/A-reaction-levelling-discord-bot.git reaction-leveling-bot
    cd reaction-leveling-bot
    ```
 
