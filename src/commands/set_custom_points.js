@@ -8,7 +8,7 @@ const { handleInteractionError } = require("../utils/interaction");
 module.exports = {
 	// Required for slash commands
 	description: "Add custom points",
-	// permissions: [PermissionFlagsBits.Administrator],
+	permissions: [PermissionFlagsBits.Administrator],
 	options: [
 		{
 			name: "amount",

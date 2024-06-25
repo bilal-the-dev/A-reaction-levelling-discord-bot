@@ -10,7 +10,7 @@ module.exports = {
 	// Required for slash commands
 	description: "Add points to a user ",
 
-	// permissions: [PermissionFlagsBits.Administrator],
+	permissions: [PermissionFlagsBits.Administrator],
 	options: [
 		{
 			name: "user",

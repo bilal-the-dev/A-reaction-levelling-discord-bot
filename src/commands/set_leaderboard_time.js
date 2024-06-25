@@ -13,7 +13,7 @@ module.exports = {
 	// Required for slash commands
 	description: "Set points for leaderboard",
 
-	// permissions: [PermissionFlagsBits.Administrator],
+	permissions: [PermissionFlagsBits.Administrator],
 	options: [
 		{
 			name: "time",

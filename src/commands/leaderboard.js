@@ -8,7 +8,7 @@ const { handleInteractionError } = require("../utils/interaction");
 module.exports = {
 	// Required for slash commands
 	description: "Setup leaderboard",
-	// permissions: [PermissionFlagsBits.Administrator],
+	permissions: [PermissionFlagsBits.Administrator],
 	// Create a legacy and slash command
 	type: CommandType.SLASH,
 
