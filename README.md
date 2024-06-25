@@ -54,6 +54,7 @@ This Discord bot provides a reaction leveling system where the bot reacts to mes
 
    ```
    TOKEN=your_discord_bot_token
+   GUILD_ID=ID_HERE
    ```
 
 4. Create configuration files:

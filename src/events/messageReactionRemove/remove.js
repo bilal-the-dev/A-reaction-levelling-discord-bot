@@ -11,7 +11,10 @@ module.exports = async (reaction, { id: reactorId }) => {
 		const {
 			author: { id: authorId },
 			id: messageId,
+			guild,
 		} = message;
+
+		if (guild.id !== process.env.GUILD_ID) return;
 
 		reactionMap.removePoints(authorId, reactorId, messageId, reaction.emoji);
 	} catch (error) {
