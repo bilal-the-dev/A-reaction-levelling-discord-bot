@@ -11,6 +11,7 @@ module.exports = {
 	permissions: [PermissionFlagsBits.Administrator],
 	// Create a legacy and slash command
 	type: CommandType.SLASH,
+	guildOnly: true,
 
 	callback: async ({ interaction }) => {
 		const { channel } = interaction;

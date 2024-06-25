@@ -8,6 +8,7 @@ const { handleInteractionError } = require("../utils/interaction");
 module.exports = {
 	// Required for slash commands
 	description: "Add custom points",
+	guildOnly: true,
 	permissions: [PermissionFlagsBits.Administrator],
 	options: [
 		{

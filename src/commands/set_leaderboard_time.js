@@ -12,7 +12,7 @@ const config = require("./../../config.json");
 module.exports = {
 	// Required for slash commands
 	description: "Set points for leaderboard",
-
+	guildOnly: true,
 	permissions: [PermissionFlagsBits.Administrator],
 	options: [
 		{
